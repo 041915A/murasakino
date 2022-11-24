@@ -1,0 +1,352 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+html {
+	scroll-padding-top: 100px;
+}
+
+body{
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+p{
+	color: #250952;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 35px 45px 35px 45px;
+	text-align:center;
+}
+
+@media all and (max-width: 470px) {
+  p{
+	text-align:left;
+  }
+    #copyright, #social-media{
+	text-align:center;
+  }
+  
+}
+
+a{
+	text-decoration:none;
+	color: #7F3DE9;
+}
+
+a:hover{
+	color: #409EB8;
+}
+
+.content{
+	margin: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #5816C2;
+}
+
+.section-heading {	
+	font-size:40px;
+	padding:50px 30px 30px 30px;
+	font-weight: 750;
+	margin-top: 90px;
+	text-align: center;
+	position: relative;
+	text-shadow: 0 0 3px #5816C2
+}
+
+.img-fluid{
+	border-radius: 0 0 25px 25px;
+}
+
+#contact-us, #about, #skills, #faq, #newsletter{
+	box-shadow: 0 1px 8px 0 #5816C2;
+	border-radius: 25px;
+}
+
+@media all and (max-width: 750px) {
+  #contact-us, #about, #skills, #faq, #newsletter{
+	box-shadow: 0 1px 8px 0 #E5588F;
+  }
+  
+  h2:after{
+	background-color: #E5588F;
+  }
+}
+
+.murasakino{
+	text-transform:uppercase; 
+	background-image: linear-gradient(to right, #9F165A , #5816C2, #409EB8 ); 
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+@media all and (max-width: 470px) {
+  .welcome, .murasakino{
+	font-size:40px;
+  }
+  .faq-p{
+	 margin:25px 5px;
+ }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.about{
+	padding-bottom:20px;
+}
+
+/*--------------------------------------------------------------
+# Navbar 
+--------------------------------------------------------------*/
+
+.hover:hover{
+	color: #7F3DE9;
+}
+
+.navbar-custom{
+	background-color:#E3D9F4;
+}
+
+.navbar-brand {
+	font-size:35px;
+	padding-left:20px;
+    font-weight:bold;
+    text-transform:uppercase; 
+	background-image: linear-gradient(to right, #9F165A , #5816C2, #409EB8 ); 
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+/*--------------------------------------------------------------
+# Scroll To Top Button
+--------------------------------------------------------------*/
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	border:none;
+	width: 60px;
+	height: 60px;
+	border-radius: 15px;
+	transition: 0.5s;
+	background-color:#5816C2 ;
+}
+#btn-back-to-top:hover{
+    background-color: #7F3DE9;
+}
+
+/*--------------------------------------------------------------
+# Hero 
+--------------------------------------------------------------*/
+.info{
+	margin-top:4.313px;
+}
+.col-lg-6{
+	background-color:rgba(	227, 217, 244, 0.9);
+	padding: 25px;
+	border-radius: 25px;
+}
+
+.hero .info {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+}
+
+.hero .info h2 {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	font-size: 56px;
+	font-weight: 700;
+	position: relative;
+	color:#250952;
+}
+
+.hero .info .btn-get-started {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	display: inline-block;
+	padding: 12px 40px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 10px;
+	color: #fff;
+	background-color: #5816C2;
+}
+
+.hero .info .btn-get-started:hover {
+	background: #7F3DE9;
+}	
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+
+.progress {
+	height: 70px;
+	display: block;
+	background: none;
+	border-radius: 0;
+}
+
+.progress-bar {
+	width: 1px;
+	height: 20px;
+	background-color:#5816C2;
+}
+
+.progress-bar-wrap {
+	background: #E3D9F4;
+}
+
+.skill {
+	padding: 10px 0;
+	margin: 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.val {
+	float: right;
+	font-style: normal;
+}
+
+.skills{
+	margin: 40px 45px 60px 45px;
+}
+
+/*--------------------------------------------------------------
+# FAQs
+--------------------------------------------------------------*/
+
+.faq{
+   padding: 40px 40px 30px 40px;
+}
+
+summary{
+	padding:10px;
+}
+
+details{
+	color: #250952;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+.form_btn{
+	width: 100%;
+	padding: 9px;
+	background-color: #5816C2;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+	transition: .5s;
+}
+
+.form_btn:hover{
+    background-color: #7F3DE9 ;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(227, 217, 244, 0.6);
+	padding: 9px 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	transition: .3s;
+}
+
+.field:focus{
+    border: 2px solid #5816C2;
+    background-color: #fff;
+}
+
+.field:hover{
+	background-color: rgba(227, 217, 244, 0.3);
+}
+
+/*--------------------------------------------------------------
+# Contact Form and Newsletter
+--------------------------------------------------------------*/
+
+.form{
+	padding: 10px 45px 55px 45px;
+}
+
+textarea{
+	min-height: 100px;
+}
+
+#select{
+	color:#777684;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+	background: #E3D9F4;
+	text-align: center;
+	padding: 30px 0;
+	margin-top:90px;
+}
+
+#footer a {
+	color: #5816C2;
+}
+
+#footer a:hover {
+	color: #7F3DE9;
+	transition: .3s;
+}
+
+#copyright{
+	margin:30px 0 0 0;
+	font-size:15px;
+}
+
+.list-inline-item{
+	margin-top:20px
+}
+
+/*--------------------------------------------------------------
+# Custom Scrollbar
+--------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+	width:19px;
+}
+
+::-webkit-scrollbar-track{
+	background: #5816C2;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #ab8ae0;
+	border: 6px solid #5816C2;
+	border-radius: 100vw;
+}
+
