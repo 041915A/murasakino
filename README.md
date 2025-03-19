@@ -1,2 +1,2 @@
 # Murasakino
-WS12 Verkkosivujen kehittäminen -kurssi Laurea
+Verkkosivujen kehittäminen R0244 Laurea-ammattikorkeakoulu
